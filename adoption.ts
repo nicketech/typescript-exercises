@@ -53,7 +53,7 @@ const dog1: Dog = {
 function OwnedDogs(dog: Dog) {
     if (dog.owned) {
         return `The dog ${dog.name} is already owned by a good family.
-            vThe dog information is: Name is ${dog.name}, Age is ${dog.age}, Breed is ${dog.breed}, Owned status is ${dog.owned}`
+            The dog information is: Name is ${dog.name}, Age is ${dog.age}, Breed is ${dog.breed}, Owned status is ${dog.owned}`
     }
     return `The dog ${dog.name} is without a family.
         The dog information is: Name is ${dog.name}, Age is ${dog.age}, Breed is ${dog.breed}, Owned status is ${dog.owned}`
